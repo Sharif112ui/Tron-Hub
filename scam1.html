@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<title> Deposit57-8</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+ background-image: url("https://img.freepik.com/free-vector/abstract-orange-background-with-lines-halftone-effect_1017-32107.jpg?w=1060&t=st=1676969551~exp=1676970151~hmac=14226fb468ef39338b6254baf88291634e283ee91776e4e5928c88b1d7fcdbf9");
+ background-color: #cccccc;
+ background-size:110%;
+}
+body {
+  font-family: Arial;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body>
+<center>
+<h1>Deposit Money</h1>
+<p>Submit It Carefully For Succes</p>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="amount">Amount</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your Deposit Amount"required>
+
+    <label for="id">Transation Id</label>
+    <input type="text" id="lname" name="lastname" placeholder="Transation Id">
+
+    <label for="Chain">Chain</label>
+    <select id="chain" name="chain">
+      <option value="trx">Tron(TRX)</option>
+      <option value="canada">Bnb(BEP20)</option>
+    </select>
+  
+    <input onclick="location.href='done2.html'"type="submit" value="Deposit">
+    
+  </form>
+</div>
+
+</body>
+</html>
